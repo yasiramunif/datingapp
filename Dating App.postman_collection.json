@@ -1,0 +1,213 @@
+{
+	"info": {
+		"_postman_id": "f1188f46-b1cb-4a84-8d60-35e37430eb56",
+		"name": "Dating App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5107032"
+	},
+	"item": [
+		{
+			"name": "users",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDcwOTkyNjUsImlzcyI6InNhYmVyIn0.ZsS7cyfdTYBTROrzymh4m1fKdMJ3ykYvueP50bQmTpwoUqRT9ZzwjUjAlKv9O9Ln4QybJViA7O9YQHf9ty4QWZp-5CIH_LTJWqHZWQchB-l6gkl7GboZci5OV22sOvzW2x98FJaVE22BtSRZbLBT1lBaa9e5oxUDJWuFWXmKBw4y_Vi3nTqvhx_S1XURn5nCoz1exUNGZcEX-HtGRV5Z4pc9ZVJBpPOSoS4IYZuOLRzMcvMLBTP49O6ZOuCiK2uK6XjK9jCrmi0mpcokFXxb0Eq56C49gbWxNtq_4luzVe864qhMUIW2Skk88FmD0DNo0qaTBDaWq-zRnFx_B--POA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/user",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "features",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDcwOTkyNjUsImlzcyI6InNhYmVyIn0.ZsS7cyfdTYBTROrzymh4m1fKdMJ3ykYvueP50bQmTpwoUqRT9ZzwjUjAlKv9O9Ln4QybJViA7O9YQHf9ty4QWZp-5CIH_LTJWqHZWQchB-l6gkl7GboZci5OV22sOvzW2x98FJaVE22BtSRZbLBT1lBaa9e5oxUDJWuFWXmKBw4y_Vi3nTqvhx_S1XURn5nCoz1exUNGZcEX-HtGRV5Z4pc9ZVJBpPOSoS4IYZuOLRzMcvMLBTP49O6ZOuCiK2uK6XjK9jCrmi0mpcokFXxb0Eq56C49gbWxNtq_4luzVe864qhMUIW2Skk88FmD0DNo0qaTBDaWq-zRnFx_B--POA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/user",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "activity view user",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDcwOTkyNjUsImlzcyI6InNhYmVyIn0.ZsS7cyfdTYBTROrzymh4m1fKdMJ3ykYvueP50bQmTpwoUqRT9ZzwjUjAlKv9O9Ln4QybJViA7O9YQHf9ty4QWZp-5CIH_LTJWqHZWQchB-l6gkl7GboZci5OV22sOvzW2x98FJaVE22BtSRZbLBT1lBaa9e5oxUDJWuFWXmKBw4y_Vi3nTqvhx_S1XURn5nCoz1exUNGZcEX-HtGRV5Z4pc9ZVJBpPOSoS4IYZuOLRzMcvMLBTP49O6ZOuCiK2uK6XjK9jCrmi0mpcokFXxb0Eq56C49gbWxNtq_4luzVe864qhMUIW2Skk88FmD0DNo0qaTBDaWq-zRnFx_B--POA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/user",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"saber\",\r\n    \"password\": \"123456\",\r\n    \"email\": \"saber@email.com\",\r\n    \"imgPath\": \"img/12123.jpg\",\r\n    \"fullname\": \"Saber Leandro Mota\",\r\n    \"gender\": \"Male\",\r\n    \"birthDate\": \"2002-03-12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/v1/auth/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create subscription",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"saber\",\r\n    \"password\": \"123456\",\r\n    \"email\": \"saber@email.com\",\r\n    \"imgPath\": \"img/12123.jpg\",\r\n    \"fullname\": \"Saber Leandro Mota\",\r\n    \"gender\": \"Male\",\r\n    \"birthDate\": \"2002-03-12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/v1/auth/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create user activity",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"saber\",\r\n    \"password\": \"123456\",\r\n    \"email\": \"saber@email.com\",\r\n    \"imgPath\": \"img/12123.jpg\",\r\n    \"fullname\": \"Saber Leandro Mota\",\r\n    \"gender\": \"Male\",\r\n    \"birthDate\": \"2002-03-12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/v1/auth/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"saber\",\r\n    \"password\": \"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/v1/auth/login",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
